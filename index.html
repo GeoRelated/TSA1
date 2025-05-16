@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Basic Information</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      color: #333;
+      margin: 2rem;
+      text-align: center;
+    }
+
+    img {
+      border-radius: 50%;
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      margin-bottom: 1rem;
+    }
+
+    .container {
+      background: white;
+      max-width: 480px;
+      margin: auto;
+      padding: 2rem;
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+      border-radius: 12px;
+    }
+
+    a.home-link {
+      display: inline-block;
+      margin-top: 1.5rem;
+      font-weight: bold;
+      color: #0077cc;
+      text-decoration: none;
+      font-size: 1.1rem;
+    }
+
+    a.home-link:hover {
+      text-decoration: underline;
+    }
+
+    .nav__content {
+      width: 100%;
+      position: fixed;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0 20px;
+      margin-left: -75px;
+    }
+
+
+
+
+    ul {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      list-style: none;
+      transition: left 0.3s;
+    }
+
+    ul li a {
+      padding: 0.5rem 1rem;
+      border: 2px solid transparent;
+      text-decoration: none;
+      font-weight: 600;
+      color: var(--text-dark);
+      transition: 0.3s;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <div class="nav__content">
+
+      <label for="check" class="checkbox">
+        <i class="ri-menu-line"></i>
+      </label>
+
+      <ul>
+        <li><a href="index.html" style="color: #0077cc;">Home</a></li>
+        <li><a href="info.html">Info</a></li>
+        <li><a href="FavWeb.html">Favorite Websites</a></li>
+        <li><a href="FA1.html">FA1</a></li>
+        <li><a href="images.html">Images</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <br>
+  <br>
+  <br>
+
+  <div class="container">
+    <h1>
+      <font color="#004080" size="6">You want to know me?</b></font>
+    </h1>
+    <img src="ano.png" alt="My Picture" />
+    <br>
+
+    <p>
+      <font color="#000000" size="4">Click this: </b></font><a href="info.html" class="home-link">Info</a>
+    </p>
+  </div>
+</body>
+
+</html>
