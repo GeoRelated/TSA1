@@ -15,12 +15,7 @@
 
         }
 
-        img {
-
-            width: 1000px;
-            height: 500px;
-
-        }
+        
 
         .container {
             background: white;
@@ -101,66 +96,105 @@
     <h1>[First Formative Assessment] IT00043L</h1>
     <h3>Geoffrie Balahadia</h3>
 
-    <h4>1. Give at least five of your favorite websites and identify the components/parts of the given URL</h4>
+    
 
-    <h4>&nbsp&nbsp&nbsp&nbsp&nbsp1. Intagram</h4>
+  
+    <table border="1px" cellpadding="10" cellspacing="0" style="width: 1000px;" align="center" >
 
-
-    <ul type="disc">
-        <li><b>Protocol:</b> https://</li>
-        <li><b>Sub Domain:</b> www.</li>
-        <li><b>Domain name:</b> Instagram.com</li>
-        <li><b>TLD:</b> .com</li>
-    </ul>
-    <h4>&nbsp&nbsp&nbsp&nbsp&nbsp2. Asus</h4>
-
-
-    <ul type="disc">
-        <li><b>Protocol:</b> https://</li>
-        <li><b>Sub Domain:</b> www.</li>
-        <li><b>Domain name:</b> asus.com</li>
-        <li><b>TLD:</b> .com</li>
-    </ul>
-    <h4>&nbsp&nbsp&nbsp&nbsp&nbsp3. Netflix</h4>
-
-
-    <ul type="disc">
-        <li><b>Protocol:</b> https://</li>
-        <li><b>Sub Domain:</b> www.</li>
-        <li><b>Domain name:</b> netlix.com</li>
-        <li><b>TLD:</b> .com</li>
-    </ul>
-    <h4>&nbsp&nbsp&nbsp&nbsp&nbsp4. Youtube</h4>
-
-
-    <ul type="disc">
-        <li><b>Protocol:</b> https://</li>
-        <li><b>Sub Domain:</b> www.</li>
-        <li><b>Domain name:</b> youtube.com</li>
-        <li><b>TLD:</b> .com</li>
-    </ul>
-    <h4>&nbsp&nbsp&nbsp&nbsp&nbsp5. Facebook</h4>
-
-
-    <ul type="disc">
-        <li><b>Protocol:</b> https://</li>
-        <li><b>Sub Domain:</b> www.</li>
-        <li><b>Domain name:</b> facebook.com</li>
-        <li><b>TLD:</b> .com</li>
-    </ul>
-
-
-    <h4>2. Search and take a screenshot of the websites that have the TLD suffix:</h4>
-    <ul type="disc">
-        <li>.eu</li>
-        <li>.edu</li>
-        <li>.jp</li>
-    </ul>
-
-    <h4>1. <a href="https://www.ust.edu.ph">https://www.ust.edu.ph/</a> </h4>
-    <img src="ust.png" />
-
-    <br>
+        <tr>
+          <th colspan="6" bgcolor="#00a3a4" >Inventory Items</th>
+        </tr>
+          
+          <tr style="background-color: #c1c1c1;">
+            <th >ID</th>
+            <th >Name</th>
+            <th >Quantity</th>
+            <th >Supplier</th>
+            <th >Date</th>
+            <th >image</th>
+          </tr>
+            <td>10001</td>
+            <td>Boy Bawang Adobo (pc)</td>
+            <td>1000</td>
+            <td rowspan="8" style="background-color: yellow; text-align: center;">KSK</td>
+            <td rowspan="2">5/14/2019</td>
+            <td rowspan="8" width="100px"> <img src="BoyBawang.jfif" width="200px" style="align-items: center;"></td>
+          </tr>
+          <tr>
+            <td>10002</td>
+            <td>Boy Bawang Adobo (pack)</td>
+            <td>200</td>
+          
+          
+          </tr>
+  
+          <tr style="background-color: #c1c1c1;">
+            <td >10003</td>
+            <td >Boy Bawang Garlic (pc)</td>
+            <td>3000</td>
+           
+            <td rowspan="2" >5/15/2019</td>
+          </tr>
+          
+          <tr style="background-color: #c1c1c1;">
+            <td>10004</td>
+            <td>Boy Bawang Garlic (pack)</td>
+            <td style="color: red;">150</td>
+          
+           
+          </tr>
+  
+          <tr>
+            <td>10005</td>
+            <td>Boy Bawang Spicy (pc)</td>
+            <td>4000</td>
+           
+            <td rowspan="2">5/16/2019</td>
+          </tr>
+  
+          <tr>
+            <td>10006</td>
+            <td>Boy Bawang Spicy (pack)</td>
+            <td>240</td>
+            
+            
+          </tr>
+  
+          <tr style="background-color: #c1c1c1;">
+            <td>10007</td>
+            <td>Boy Bawang BQQ (pc)</td>
+            <td>3000</td>
+           
+            <td rowspan="2">5/17/2019</td>
+           
+          </tr>
+  
+          <tr style="background-color: #c1c1c1;">
+            <td>10008</td>
+            <td>Boy Bawang BBQ (pack)</td>
+            <td>210</td>
+           
+           
+          </tr>
+          <tr>
+      </table>
+      
+  
+      <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="Name"> <br> <br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" placeholder="Lastname"><br> <br>
+        <label for="contact">Contact:</label><br>
+        <input type="number" id="contact" name="contact" placeholder="Contact Number"><br> <br>
+        <label for="contact">Message:</label><br>
+        <textarea type="text" id="Message" name="Message" placeholder="Message"> </textarea> <br>
+  
+        <input type="submit" value="Submit">
+  
+      </form> 
+    
+      
 
 
 </body>
